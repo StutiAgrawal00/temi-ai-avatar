@@ -1,6 +1,11 @@
 # 🤖 Temi AI Avatar System
 
-AI-powered avatar system for Temi robot that converts user input into speech and generates synchronized lip-sync video responses using Duix Avatar pipeline.
+A dynamic AI avatar system designed for Temi robot interaction that generates synchronized lip-sync video responses using a near real-time processing pipeline.
+
+This system converts user input into a talking avatar video using a pipeline:
+Text → TTS → Audio Wave → Lip Sync → Video Generation
+
+Built using Duix-Avatar as the core engine, extended with a custom backend pipeline and performance optimizations.
 
 ---
 
@@ -9,8 +14,10 @@ AI-powered avatar system for Temi robot that converts user input into speech and
 * Integrated Duix Avatar for lip-sync video generation
 * Built backend pipeline using Node.js
 * Deployed services using Docker
-* Executed full pipeline from input → video output
-* Tested real-time feasibility for Temi robot
+* Achieved ~30–40 seconds end-to-end avatar response generation
+* Executed complete end-to-end pipeline from user input to avatar video output
+* Tested near real-time feasibility for Temi robot interaction
+
 
 ---
 
@@ -57,7 +64,7 @@ User Input → Text Processing → TTS (Audio Wave Generation) → Avatar Lip Sy
 
   ## ✨ Features
 
-- Real-time text-to-speech (TTS)
+- Near Real-time text-to-speech (TTS)
 - Audio wave generation
 - Avatar lip-sync rendering
 - Video generation pipeline
@@ -66,7 +73,7 @@ User Input → Text Processing → TTS (Audio Wave Generation) → Avatar Lip Sy
 
 ## ⚡ Key Highlight
 
-- Successfully reduced avatar response pipeline latency
+- Optimized avatar generation pipeline to reduce response latency
 - Built working end-to-end system from TTS to video output
 
 ## ⚡ Implementation Note
