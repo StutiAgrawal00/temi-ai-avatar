@@ -69,7 +69,14 @@ User Input → Text Processing → TTS (Audio Wave Generation) → Avatar Lip Sy
 - Successfully reduced avatar response pipeline latency
 - Built working end-to-end system from TTS to video output
 
----
+## ⚡ Implementation Note
+
+This project leverages the Duix-Avatar open-source framework for avatar video generation.
+On top of it, I implemented:
+- Custom API-based triggering using Node.js
+- End-to-end pipeline (Text → TTS → Lip Sync → Video)
+- Reduced avatar response latency by optimizing pipeline execution
+- Integration-ready backend for Temi robot use-case
 
 ## 👩‍💻 Author
 
