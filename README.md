@@ -1,6 +1,6 @@
 # 🤖 Temi AI Avatar System
 
-This project is an AI-powered avatar system built using Duix Avatar and designed for Temi robot interaction.
+AI-powered avatar system for Temi robot that converts user input into speech and generates synchronized lip-sync video responses using Duix Avatar pipeline.
 
 ---
 
@@ -54,6 +54,20 @@ User Input → Text Processing → TTS (Audio Wave Generation) → Avatar Lip Sy
 
 * Hospital assistant (Temi robot)
 * AI-based interactive avatar system
+
+  ## ✨ Features
+
+- Real-time text-to-speech (TTS)
+- Audio wave generation
+- Avatar lip-sync rendering
+- Video generation pipeline
+- Docker-based deployment
+- End-to-end working system
+
+## ⚡ Key Highlight
+
+- Successfully reduced avatar response pipeline latency
+- Built working end-to-end system from TTS to video output
 
 ---
 
