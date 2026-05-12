@@ -8,6 +8,11 @@ Text → TTS → Audio Wave → Lip Sync → Video Generation
 Built using Duix-Avatar as the core engine, extended with a custom backend pipeline and performance optimizations.
 
 ---
+## Demo Video
+
+Watch the AI Avatar demo here:  
+[LinkedIn Demo Video](https://www.linkedin.com/posts/stuti-agrawal-2611nov_ai-generativeai-reactjs-ugcPost-7459865972695425024-3G4R?utm_source=share&utm_medium=member_android&rcm=ACoAADMfGVcB5z1GPj6Kl3z4OXL7C7hoYUXcDMU)
+---
 
 ## 🚀 What I Built
 
